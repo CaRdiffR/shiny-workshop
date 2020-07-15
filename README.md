@@ -1,8 +1,8 @@
 # Cardiff R User Group Shiny Workshop
 
-by [Dominik Krzemiński](github.com/dokato/).
+by [Dominik Krzemiński](https://github.com/dokato/).
 
-For this tutorial I assume that you have RStudio installed in the latest version
+For this tutorial I assume that you have the latest version of RStudio installed
 and the following packages in versions:
 
 ```
