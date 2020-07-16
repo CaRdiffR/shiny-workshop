@@ -22,8 +22,10 @@ ui <- fluidPage(
           tags$p("Here is where the action takes place")
       ), 
       tags$h3(textOutput("welcome_message")),
-      #' (part 1) place for plotOutput
-      #' (part 2) place for uiOutput "pigs"
+      #TODO (part 1) place for plotOutput
+      
+      #TODO (part 2) TODO place for uiOutput "pigs"
+      
       tags$img(src="https://media.giphy.com/media/u47skfNmdGSM05XP5G/giphy.gif", width="200px")
     )
   )
@@ -42,14 +44,14 @@ server <- function(input, output) {
   
   observeEvent(input$go_button, {
     print("Go")
-    #' (part 2) add code for rendering pigs
+    #TODO (part 2) add code for rendering pigs
   })  
   
   output$welcome_message <- renderText({
     paste("Welcome", input$name)
   })
   
-  #' (part 1) place for renderPlot
+  #TODO (part 1) place for renderPlot
 }
 
 shinyApp(ui = ui, server = server)
